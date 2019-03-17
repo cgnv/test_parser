@@ -1,0 +1,117 @@
+<%= form_with(model: purchase, local: true) do |form| %>
+  <% if purchase.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(purchase.errors.count, "error") %> prohibited this purchase from being saved:</h2>
+
+      <ul>
+      <% purchase.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :notification_id %>
+    <%= form.number_field :notification_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :purchaseNumber %>
+    <%= form.text_field :purchaseNumber %>
+  </div>
+
+  <div class="field">
+    <%= form.label :docPublishDate %>
+    <%= form.text_field :docPublishDate %>
+  </div>
+
+  <div class="field">
+    <%= form.label :href %>
+    <%= form.text_field :href %>
+  </div>
+
+  <div class="field">
+    <%= form.label :purchaseObjectInfo %>
+    <%= form.text_field :purchaseObjectInfo %>
+  </div>
+
+  <div class="field">
+    <%= form.label :guid %>
+    <%= form.text_field :guid %>
+  </div>
+
+  <div class="field">
+    <%= form.label :createDateTime %>
+    <%= form.datetime_select :createDateTime %>
+  </div>
+
+  <div class="field">
+    <%= form.label :registrationNumber %>
+    <%= form.text_field :registrationNumber %>
+  </div>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :purchaseMethodCode %>
+    <%= form.text_field :purchaseMethodCode %>
+  </div>
+
+  <div class="field">
+    <%= form.label :purchaseCodeName %>
+    <%= form.text_field :purchaseCodeName %>
+  </div>
+
+  <div class="field">
+    <%= form.label :publicationDateTime %>
+    <%= form.datetime_select :publicationDateTime %>
+  </div>
+
+  <div class="field">
+    <%= form.label :status %>
+    <%= form.text_field :status %>
+  </div>
+
+  <div class="field">
+    <%= form.label :version %>
+    <%= form.text_field :version %>
+  </div>
+
+  <div class="field">
+    <%= form.label :modificationDate %>
+    <%= form.datetime_select :modificationDate %>
+  </div>
+
+  <div class="field">
+    <%= form.label :saveUserId %>
+    <%= form.number_field :saveUserId %>
+  </div>
+
+  <div class="field">
+    <%= form.label :examinationPlace %>
+    <%= form.text_field :examinationPlace %>
+  </div>
+
+  <div class="field">
+    <%= form.label :examinationDateTime %>
+    <%= form.datetime_select :examinationDateTime %>
+  </div>
+
+  <div class="field">
+    <%= form.label :submissionCloseDateTime %>
+    <%= form.datetime_select :submissionCloseDateTime %>
+  </div>
+
+  <div class="field">
+    <%= form.label :publicationPlannedDate %>
+    <%= form.date_select :publicationPlannedDate %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

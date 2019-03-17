@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:purchase xmlns="http://zakupki.gov.ru/oos/types/1" xmlns:ns2="http://zakupki.gov.ru/oos/export/1">
+  <id>14514</id>
+  <purchaseNumber>9911111111314001000</purchaseNumber>
+  <docPublishDate>2014-01-21T10:23:46.869+04:00</docPublishDate>
+  <href>http://zakupki.gov.ru/epz/order/notice/zp44/view/common-info.html?noticeId=14514</href>
+  <purchaseObjectInfo>поставка продуктов на первое полугодие 2014 года</purchaseObjectInfo>
+  <ns2:guid>759e7ac3-73cb-4b2d-bb11-7a6119e00a66</ns2:guid>
+  <ns2:createDateTime>2013-03-05T16:02:06</ns2:createDateTime>
+  <ns2:registrationNumber>31300177655</ns2:registrationNumber>
+  <ns2:name>Поставка дорожных знаков для нужд ГУП РА "Кошехабльский ДРСУ"</ns2:name>
+  <ns2:purchaseMethodCode>18010</ns2:purchaseMethodCode>
+  <ns2:purchaseCodeName>Запрос цен</ns2:purchaseCodeName>
+  <ns2:publicationDateTime>2013-03-05T16:30:49</ns2:publicationDateTime>
+  <ns2:status>P</ns2:status>
+  <ns2:version>1</ns2:version>
+  <ns2:modificationDate>2013-03-05T16:30:49</ns2:modificationDate>
+  <ns2:saveUserId>8109</ns2:saveUserId>
+  <ns2:examinationPlace>385400, Россия, Республика Адыгея, Кошехабльский район, аул Кошехабль, ул. Дружбы Народов, 74</ns2:examinationPlace>
+  <ns2:examinationDateTime>2013-03-13T09:00:00</ns2:examinationDateTime>
+  <ns2:submissionCloseDateTime>2013-03-12T08:00:00</ns2:submissionCloseDateTime>
+  <ns2:publicationPlannedDate>2013-03-05</ns2:publicationPlannedDate>
+  <ns2:lots>
+    <lot>
+      <guid>5d1ccc91-1500-479f-b2f3-0248d09a8e64</guid>
+      <ordinalNumber>1</ordinalNumber>
+      <subject>Поставка дорожных знаков для нужд ГУП РА "Кошехабльский ДРСУ"  </subject>
+      <initialSum>227674.00</initialSum>
+      <deliveryPlace>385400, Россия, Республика Адыгея, Кошехабльский район, аул Кошехабль, ул. Дружбы Народов, 74</deliveryPlace>
+     </lot>
+  </ns2:lots>
+</ns2:purchase>
