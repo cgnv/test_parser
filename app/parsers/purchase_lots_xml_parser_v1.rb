@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# Basic implementation for parser, which extract one purchase and multiple lots
+# Implementation for parser, which extract one purchase and multiple lots
 # from two files. Example files: /spec/files/fcsNotificationZP44.xml,
 # /spec/files/purchaseNotice_Adygeya_Resp.xml
 # Usage:
@@ -24,7 +24,7 @@ class PurchaseLotsXmlParserV1 < PurchaseLotsXmlParser
       docPublishDate: 'docPublishDate',
       href: 'href',
       purchaseObjectInfo: 'purchaseObjectInfo'
-    ).merge!(
+    ).merge(
       extract_attr(
         1,
         '/ns2:purchaseNotice/ns2:body/ns2:item/ns2:purchaseNoticeData',

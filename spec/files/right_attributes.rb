@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RIGHT_ATTRIBUTES = {
   notification_id: '14514',
   purchaseNumber: '9911111111314001000',
